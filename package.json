@@ -1,0 +1,32 @@
+{
+  "name": "linetopath",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@amap/amap-jsapi-loader": "^1.0.1",
+    "@dwayneparton/geojson-to-gpx": "^0.2.0",
+    "@element-plus/icons-vue": "^2.3.1",
+    "@turf/turf": "^7.1.0",
+    "axios": "^1.7.7",
+    "dat.gui": "^0.7.9",
+    "element-plus": "^2.8.6",
+    "gsap": "^3.12.5",
+    "lodash": "^4.17.21",
+    "mitt": "^3.0.1",
+    "vue": "^3.5.11",
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.4",
+    "sass": "^1.77.1",
+    "sass-loader": "^14.2.1",
+    "vite": "^5.4.8",
+    "vite-plugin-vue-devtools": "^7.4.6"
+  }
+}
